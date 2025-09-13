@@ -36,7 +36,7 @@ export const ChatModal = ({ isOpen, onClose }: ChatModalProps) => {
       case "Qual o prazo de entrega?":
         return "O prazo de entrega é de 5 a 15 dias úteis no máximo. Temos frete grátis para compras acima de R$ 50,00! 📦";
       case "Tem desconto para pagamento à vista?":
-        return "Sim! O preço promocional atual já é uma excelente oportunidade. É uma oferta imperdível! 💰";
+        return "Sim! O preço que você está vendo já tem 65% de desconto à vista. É uma oferta imperdível! 💰";
       case "Como funciona a devolução?":
         return "Você tem 30 dias para devolução sem complicações. Basta entrar em contato conosco e cuidamos de tudo! 🔄";
       default:
