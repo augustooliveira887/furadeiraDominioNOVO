@@ -159,7 +159,7 @@ const Index = () => {
           <div className="bg-orange-600 text-white px-4 py-3 mx-4 rounded-lg mt-4">
             <div className="flex items-center justify-between">
               <div className="flex items-baseline gap-1">
-                <span className="text-3xl font-extrabold leading-none">R$ 279</span>
+                <span className="text-3xl font-extrabold leading-none">R$ 69</span>
                 <span className="text-xl font-bold">,00</span>
               </div>
               <div className="flex items-center gap-2">
@@ -395,7 +395,7 @@ const Index = () => {
       <div ref={ctaRef} className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 z-40" style={{ marginBottom: isAtBottom ? footerHeight : 0, paddingBottom: 'env(safe-area-inset-bottom)' }}>
         <div className="flex items-center gap-2">
           <div className="flex-1">
-            <div className="text-lg font-bold text-orange-600">R$ 279,00</div>
+            <div className="text-lg font-bold text-orange-600">R$ 69,00</div>
           </div>
           
           {/* Action Buttons */}
