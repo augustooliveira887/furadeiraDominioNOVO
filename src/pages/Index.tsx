@@ -26,6 +26,10 @@ import {
   ArrowLeft,
   Store
 } from 'lucide-react';
+import comboProdutos from '@/assets/combo-produtos.jpg';
+import reviewLiquidificador from '@/assets/review-liquidificador.jpg';
+import reviewSanduicheira from '@/assets/review-sanduicheira.jpg';
+import reviewCombo from '@/assets/review-combo.jpg';
 import eletroprimeLogo from '@/assets/eletroprime-logo-new.png';
 
 const Index = () => {
@@ -165,7 +169,7 @@ const Index = () => {
               </span>
             </div>
           </div>
-          <div className="mt-2 flex items-center justify-between text-xs">
+          <div className="mt-2 flex items-center justify-end text-xs">
             <div className="flex items-center gap-2">
               <span className="opacity-90">Termina em</span>
               <CountdownTimer compact />
