@@ -143,7 +143,9 @@ export const PurchaseModal = ({ isOpen, onClose }: PurchaseModalProps) => {
                   Kit de Furadeira Multifuncional 21V Recarregável com 2 Baterias Incluídas
                 </h3>
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="text-2xl font-bold text-orange-600">R$ 279,90</span>
+                  <span className="text-lg text-gray-500 line-through">R$ 197,00</span>
+                  <span className="text-2xl font-bold text-orange-600">R$ 69,00</span>
+                  <span className="bg-red-500 text-white text-xs px-2 py-1 rounded-full font-bold">-65%</span>
                 </div>
                 <div className="bg-teal-100 text-teal-700 text-sm px-3 py-1 rounded-full inline-block">
                   Frete grátis

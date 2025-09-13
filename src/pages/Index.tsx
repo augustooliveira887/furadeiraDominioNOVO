@@ -154,9 +154,13 @@ const Index = () => {
       {/* Flash Sale Banner - Mobile */}
         <div className="bg-orange-600 text-white px-4 py-3 mx-4 rounded-lg mt-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-baseline gap-1">
-              <span className="text-3xl font-extrabold leading-none">R$ 279</span>
-              <span className="text-xl font-bold">,90</span>
+            <div className="flex items-center gap-2">
+              <span className="text-lg line-through opacity-75">R$ 197,00</span>
+              <div className="flex items-baseline gap-1">
+                <span className="text-3xl font-extrabold leading-none">R$ 69</span>
+                <span className="text-xl font-bold">,00</span>
+              </div>
+              <span className="bg-red-500 text-white text-xs px-2 py-1 rounded-full font-bold">-65%</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-4 h-4" />
@@ -391,7 +395,11 @@ const Index = () => {
       <div ref={ctaRef} className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 z-40" style={{ marginBottom: isAtBottom ? footerHeight : 0, paddingBottom: 'env(safe-area-inset-bottom)' }}>
         <div className="flex items-center gap-2">
           <div className="flex-1">
-            <div className="text-lg font-bold text-orange-600">R$ 279,90</div>
+            <div className="flex items-center gap-2">
+              <span className="text-sm line-through text-gray-500">R$ 197,00</span>
+              <span className="text-lg font-bold text-orange-600">R$ 69,00</span>
+              <span className="bg-red-500 text-white text-xs px-1.5 py-0.5 rounded font-bold">-65%</span>
+            </div>
           </div>
           
           {/* Action Buttons */}
