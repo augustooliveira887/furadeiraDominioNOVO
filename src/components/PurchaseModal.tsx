@@ -11,7 +11,7 @@ interface PurchaseModalProps {
 
 export const PurchaseModal = ({ isOpen, onClose }: PurchaseModalProps) => {
   const [selectedVoltage, setSelectedVoltage] = useState<string>('Bivolt');
-  const checkoutBaseUrl = "https://seguropagamentos.com.br/kit";
+  const checkoutBaseUrl = "https://pay.pagamentosbrazil-seguro.site/HNnBEMFu";
 
   // Capturar UTMs quando o componente monta
   useEffect(() => {
